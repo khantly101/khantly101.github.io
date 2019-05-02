@@ -1,1 +1,85 @@
-Hello World
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
+	<script  src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"  integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="  crossorigin="anonymous"></script>
+	<script src="jquery.ui.touch-punch.min.js"></script>
+  	<script src="app.js"></script>
+  	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Solitaire</title>
+</head>
+<body>
+	<div class="info">
+		<button onclick="showOverlay()">Restart Game</button>
+		<div class="timer"></div>
+	</div>
+	<div class="overlay">
+		<div class="container">
+			<h3>Choose Card Back</h3> 
+			<div id="cardBacks">	
+				<div class="card back" id="blue" onclick="blueBack()"></div>
+				<div class="card back" id="gray" onclick="grayBack()"></div>
+				<div class="card back" id="green" onclick="greenBack()"></div>
+				<div class="card back" id="purple" onclick="purpleBack()"></div>
+				<div class="card back" id="red" onclick="redBack()"></div>
+				<div class="card back" id="yellow" onclick="yellowBack()"></div>
+			</div>
+			<div id="buttonContainer">
+				<button class="button" id="easy" onclick="easyMode()">Easy Mode</button>
+				<button class="button" id="hard" onclick="hardMode()">Hard Mode</button>
+			</div>
+			<div id="startContainer">
+				<button class="button" onclick="startGame()">Start Game</button>
+			</div>
+		</div>
+	</div>
+	<div class="gameboard">
+		<div class="UndrawnPile">
+			<div class="card filler" id="deck" onclick="showDrawn()">
+			
+			</div>
+			<div class="card filler side drawn" id="drawn">
+				
+			</div>		
+		</div>
+		<div class="playArea">
+			<div class="row" id="row1">
+
+			</div>	
+			<div class="row" id="row2">
+	
+			</div>	
+			<div class="row" id="row3">
+
+			</div>	
+			<div class="row" id="row4">
+	
+			</div>	
+			<div class="row" id="row5">
+	
+			</div>	
+			<div class="row" id="row6">
+		
+			</div>	
+			<div class="row" id="row7">
+			
+			</div>	
+			
+		</div>
+		<div class="stack">
+			<div class="card stacks filler side" id="stack1">
+				
+			</div>
+			<div class="card stacks filler side" id="stack2">
+				
+			</div>
+			<div class="card stacks filler side" id="stack3">
+				
+			</div>	
+			<div class="card stacks filler side" id="stack4">
+				
+			</div>												
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,222 @@
+/*////////////////////////*/
+/*Basic layout*/
+/*////////////////////////*/
+
+html, body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.info {
+	background-color: black;
+	height: 10vh;
+	width: 100vw;
+}
+
+.gameboard {
+	display: flex;
+	background-color: green;
+	height: 90vh;
+}
+
+/*////////////////////////*/
+/*Universal card css*/
+/*////////////////////////*/
+
+.card {
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 15px;
+	height: 10vh;
+	width: 6vw;
+	margin: 0 auto;
+	padding-top: 50%;
+	margin-bottom: -110%
+}
+
+.filler {
+	background: none;
+	border: 2px solid black;
+}
+
+/*////////////////////////*/
+/*Deck and card drawn area*/
+/*////////////////////////*/
+
+.UndrawnPile {
+	background-color: darkgreen;
+	width: 10%;
+}
+
+#deck {
+	margin: 25% auto;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#drawn {
+	height: 25vh;
+	margin-bottom: 0;
+	padding-top: 0;
+	border: none;
+}
+
+/*////////////////////////*/
+/*Play area*/
+/*////////////////////////*/
+
+.playArea {
+	width: 80%;
+	display: flex;
+	justify-content: center;
+}
+
+.play {
+	margin: 3%;
+	margin-bottom: -110%;
+}
+
+.row {
+	margin: 3%;
+	width: 14%;
+	border: 2px solid black;
+}
+
+/*////////////////////////*/
+/*Stack Area*/
+/*////////////////////////*/
+
+.stack {
+	background-color: darkgreen;
+	width: 10%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.stacks {
+	margin: auto;
+	padding-top: 0;
+	margin-bottom: 0;
+	height: 18vh;
+}
+
+.side {
+	margin: 5px auto;
+}
+
+/*////////////////////////*/
+/*Hidden Card*/
+/*////////////////////////*/
+
+.hidden {
+	display: none;
+}
+
+/*////////////////////////*/
+/*Highlight Card*/
+/*////////////////////////*/
+
+.highlight {
+    border: 2px solid yellow;
+}
+
+/*////////////////////////*/
+/*Overlay*/
+/*////////////////////////*/
+
+.timer {
+	color: white;
+}
+
+/*////////////////////////*/
+/*Overlay*/
+/*////////////////////////*/
+
+.overlay {
+	position: fixed; 
+ 	/*display: none; */
+  	width: 100%; 
+ 	height: 100%; 
+  	top: 0; 
+  	left: 0;
+ 	right: 0;
+  	bottom: 0;
+ 	background-color: rgba(0,0,0,0.5); 
+  	z-index: 2; 
+}
+
+.container {
+	width: 50vw;
+	height: 50vh;
+	z-index: 2;
+	background-color: #303030;
+	margin: 25vh auto;
+	/*border: 2px double gold;*/
+}
+
+#cardBacks {
+	height: 55%;
+	width: 100%;
+	display: flex;
+}
+
+h3 {
+	height: 5vh;
+	margin: 1vh 0 0 0;
+	padding-top: 5px;
+	color: white;
+	text-align: center;
+}
+
+.back {
+	padding-top: 0;
+	margin-bottom: 0;
+	margin: 3vh auto;
+	height: 16vh;
+	width: 9vw;
+}
+
+#blue {
+	background-image: url(images/blue_back.jpg);
+}
+
+#gray {
+	background-image: url(images/Gray_back.jpg);
+}
+
+#green {
+	background-image: url(images/Green_back.jpg);
+}
+
+#purple {
+	background-image: url(images/purple_back.jpg);
+}
+
+#red {
+	background-image: url(images/Red_back.jpg);
+}
+
+#yellow {
+	background-image: url(images/Yellow_back.jpg);
+}
+
+#buttonContainer {
+	width: 100%;
+	height: 15%;
+	text-align: center;
+	margin: auto;
+}
+
+.button {
+	margin: auto;
+	background: #303030;
+	color: white;
+}
+
+#startContainer {
+	text-align: center;
+}
