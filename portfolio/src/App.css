@@ -1,0 +1,61 @@
+body{
+	background-color: white;
+}
+
+.header {
+	padding: 0;
+	height: 8vh;
+	border-bottom: 15px double white;
+	display: flex;
+	justify-content: space-between;
+	background-color: steelblue;
+}
+
+.title {
+	line-height: 170%;
+	font-family: serif;
+	font-size: 3em;
+	width: 7%;
+	margin: 0 5%;
+	color: white;
+}
+
+.projectsContainer, .aboutContainer {
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+	border-top: 1px solid black;
+}
+
+.projectsLeft, .projectsRight {
+	width: 45%;
+	margin: 0 auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+img {
+	width: 250px;
+	height: 150px;
+}
+
+.solitaire, .fuel, .sudoku, .mario {
+	display: flex;
+	margin-top: 10px;
+	margin-left: 10px;
+	border-bottom: 1px solid black
+}
+
+.description {
+	padding: 10px;
+}
+
+button {
+	border-radius: 10px;
+	width: 150px;
+	height: 30px;
+	border: none;
+	margin: 5px;
+}
