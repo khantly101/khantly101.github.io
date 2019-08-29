@@ -83,6 +83,10 @@ class App extends React.Component {
 		})
 	}
 
+	componentDidMount() {
+		document.title = "Khan Ly's Portfolio";
+	}
+
 	render () {
 		return (
 			<div className='container'>
