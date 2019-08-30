@@ -5,9 +5,11 @@
   "homepage": "https://khantly101.github.io/main/",
   "dependencies": {
     "gh-pages": "^2.1.1",
+    "materialize-css": "^1.0.0-rc.2",
     "react": "^16.9.0",
     "react-animate-mount": "^1.0.1",
     "react-dom": "^16.9.0",
+    "react-materialize": "^3.3.4",
     "react-scripts": "3.1.1"
   },
   "scripts": {

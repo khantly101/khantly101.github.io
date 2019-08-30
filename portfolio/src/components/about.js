@@ -7,27 +7,33 @@ class About extends React.Component {
 
 	render () {
 		return (
-			<div className='about'>
-				<img src={picture} alt='' className='aboutPic'/>
-				<div>
-					<h2>
+			<div className='row about valign-wrapper'>
+				<img src={picture} alt='' className='responsive-img circle col s4' />
+				<div className='col s8'>
+					<h2 className='flow-text'>
 						Hello, My name is Khan Ly
 						<br />
-						And I am A Full-Stack Developer.
+						And I am A Full-Stack Developer
 					</h2>
-					<p> 
-						I have strong skills in React and javascript where I find the most enjoyment creating and building from.
-						I have a tenacious personality that eagerly tries to learn and grow as much as possible.
-					</p>
-					<div className='contacts'>
-						<h3 className='link'>Contact Info</h3>
-						<p>
-							Email: <a href='mailto: khantuanly@gmail.com'>khantuanly@gmail.com</a>
+					<div className="card-panel blue lighten-2">
+						<p className='flow-text black-text'> 
+							I have strong skills in React and javascript where I find the most enjoyment creating and building from.
+							I have a tenacious personality that eagerly tries to learn and grow as much as possible.
 						</p>
 					</div>
+					<div className='contacts'>
+						<h3 className='flow-text info'>Contact Info</h3>
+						<div className="card-panel blue lighten-4">
+							<p className='flow-text black-text'>
+								Email: <a className='blue-text' href='mailto: khantuanly@gmail.com'>khantuanly@gmail.com</a>
+							</p>
+						</div>
+					</div>
 					<div className='links'>
-						<a href='https://github.com/khantly101'><button className='contentButton'>GitHub</button></a>
-						<a href='https://www.linkedin.com/in/khan-ly/'><button className='contentButton'>linkedin</button></a>
+						<a href='https://github.com/khantly101' target="_blank" rel="noopener noreferrer"><button className='btn white black-text'>GitHub</button></a>
+						<a href='https://www.linkedin.com/in/khan-ly/' target="_blank" rel="noopener noreferrer"><button className='btn white black-text'>linkedin</button></a>
+						<a href='https://profiles.generalassemb.ly/profiles/khan-ly' target="_blank" rel="noopener noreferrer"><button className='btn white black-text'>GA Profile</button></a>
+						<a href='https://drive.google.com/uc?export=download&id=1N5GTHqNaorSVm8gHf7iE73lNIFGRQrtK' target="_blank" rel="noopener noreferrer"><button className='btn white black-text'>Resume Download</button></a>
 					</div>
 				</div>
 			</div>

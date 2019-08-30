@@ -8,21 +8,24 @@ class Solitaire extends React.Component {
 	render () {
 		return (
 			<div className='solitaire'>
-				<h2 className='link'>Solitaire App</h2>
-				<img src={picture} alt='' />
-				<div className='description'>
-					<h3 className='link'>Links</h3>
-					<a href='https://github.com/khantly101/Project-1'><button className='contentButton'>GitHub</button></a>
-					<a href='https://khantly101.github.io/Project-1/'><button className='contentButton'>Demo</button></a>
-					<h3 className='link'>Description</h3>
-					<p>
-						Solitaire Playing App.
-						<br /> 
-						Built using basic HTML, CSS, JQuery, and Jquery Ui
-						<br />
-						<br />
-						My first major project, building a simple solitaire app using a deck of cards api
-					</p>
+				<h2 className='flow-text'>Solitaire App</h2>
+				<div class="card horizontal blue lighten-2">
+					<div class="card-image">
+						<img src={picture} alt='' />
+					</div>
+					<div class="card-stacked">
+						<div class="card-content">
+							<p className='flow-text black-text'>
+								Simple Solitaire playing app with timer and card back changing features.
+								<br />
+								Built with HTML, JQuery, JQuery UI, and Deck of cards API
+							</p>
+						</div>
+						<div class="card-action">
+							<a href='https://github.com/khantly101/Project-1' target="_blank" rel="noopener noreferrer"><button className='btn white black-text'>GitHub</button></a>
+							<a href='https://khantly101.github.io/Project-1/' target="_blank" rel="noopener noreferrer"><button className='btn white black-text'>Demo</button></a>
+						</div>
+					</div>
 				</div>
 			</div>
 		)

@@ -1,7 +1,4 @@
-body {
-	background-color: #272221;
-	overflow: hidden
-}
+/*
 
 p {
 	background-color: white;
@@ -10,51 +7,24 @@ p {
 }
 
 .container {
-	display: flex;
 	color: white;
 }
 
 .content {
-	width: 70%;
-	height: 80vh;
+	height: 90vh;
 	background-color: #272221;
-}
-
-.side {
-	width: 30%;
-	height: 80vh;
-	background-color: #272221;
-	text-align: right;
-}
-
-.sideTitle {
-	color: white;
-	border-bottom: 1px solid white;
-	width: 300px;
-	text-align: center;
-	margin-left: 270px;
 }
 
 .sideButton {
-	width: 300px;
+	width: 15%;
 	height: 50px;
 	background-color: ghostwhite;
 	border: none;
-	margin: 5px;
-}
-
-.sideButton:hover {
-	transition: width .5s;
-	width: 350px;
+	margin: 0 auto;
 }
 
 .solitaire, .fuel, .sudoku, .mario, .about {
-	width: 60%;
-	margin: 5% auto;
-}
-
-.about {
-	display: flex;
+	margin: 5%;
 }
 
 .aboutPic {
@@ -74,8 +44,7 @@ img {
 }
 
 .contentButton {
-	width: 290px;
-	height: 50px;
+	width: 100%;
 	background-color: ghostwhite;
 	border: none;
 	margin: 5px;
@@ -83,4 +52,30 @@ img {
 
 .link {
 	border-bottom: 1px solid white;
+}*/
+
+body {
+	background-color: #1565c0;
+	color: white;
+}
+
+.about {
+	height: 100vh
+}
+
+.info {
+	border-bottom: 1px solid white;
+}
+
+button {
+	margin-right: 5px;
+	margin-bottom: 15px;
+}
+
+.projectsText {
+	font-size: 5vh
+}
+
+.project {
+	margin: 0;
 }
