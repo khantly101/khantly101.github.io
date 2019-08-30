@@ -17,8 +17,9 @@ class About extends React.Component {
 					</h2>
 					<div className="card-panel blue lighten-2">
 						<p className='flow-text black-text'> 
-							I have strong skills in React and javascript where I find the most enjoyment creating and building from.
-							I have a tenacious personality that eagerly tries to learn and grow as much as possible.
+							I have strong skills in React and Javascript, 
+							and I find great enjoyment using these technologies to create and build applications. 
+							I have a tenacious personality, and I am focused on learning and growing as much as possible.
 						</p>
 					</div>
 					<div className='contacts'>
