@@ -34,7 +34,7 @@ class About extends React.Component {
 						<a href='https://github.com/khantly101' target="_blank" rel="noopener noreferrer"><button className='btn white black-text'>GitHub</button></a>
 						<a href='https://www.linkedin.com/in/khan-ly/' target="_blank" rel="noopener noreferrer"><button className='btn white black-text'>linkedin</button></a>
 						<a href='https://profiles.generalassemb.ly/profiles/khan-ly' target="_blank" rel="noopener noreferrer"><button className='btn white black-text'>GA Profile</button></a>
-						<a href='https://drive.google.com/uc?export=download&id=1N5GTHqNaorSVm8gHf7iE73lNIFGRQrtK' target="_blank" rel="noopener noreferrer"><button className='btn white black-text'>Resume Download</button></a>
+						<a href='https://drive.google.com/uc?export=download&id=1ehSBmdKOo2PWVcITmhK7ksUtGHEMR8Al' target="_blank" rel="noopener noreferrer"><button className='btn white black-text'>Resume Download</button></a>
 					</div>
 				</div>
 			</div>
